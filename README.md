@@ -52,6 +52,10 @@ Primary configuration options are defined as constants at the beginning of `emot
 *   **Dataset Dependency**: The effectiveness of the model heavily relies on the quality and format of the training data, specifically how emotion vectors are provided and aligned with the text sequences.
 *   **Emotion Source**: This implementation assumes that emotion vectors are provided as input during training and inference. It does not include mechanisms for dynamically inferring emotion from the text context itself.
 
+## Ethical considerations
+
+While the model predicts tokens/simulates emotions based on vector inputs, interacting with such models calls for a mindful approach. Please explore this respectfully.
+
 ## Author
 
 FelixTheWhale
